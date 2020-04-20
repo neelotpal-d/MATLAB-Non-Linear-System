@@ -1,8 +1,8 @@
 Use `help non_linear_solve` in MATLAB
 
-non_linear_solve solves a nonlinear system of  equations using
+`non_linear_solve` solves a nonlinear system of  equations using
   Newton's method
-  y=nol_linear_solve(f,x0,tol) solves the non linear set of n equations
+  `y=nol_linear_solve(f,x0,tol)` solves the non linear set of n equations
   f={f1,f2..fn}, where each fi=f(x1,x2...xn)=0 is a function of n
   variables. f is a cell array containing the function handles. x0 is a
   column vector with initial guess. tol is the tolerence of the result.
@@ -16,5 +16,5 @@ non_linear_solve solves a nonlinear system of  equations using
    
    ```
  
- ** NOTE: The function has not been tested for exceptions and will be
+ *NOTE*: The function has not been tested for exceptions and will be
  added in subsequent revisions.
