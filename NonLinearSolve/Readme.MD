@@ -16,5 +16,5 @@ non_linear_solve solves a nonlinear system of  equations using
    
    ```
  
- **NOTE: The function has not been tested for exceptions and will be
+ ** NOTE: The function has not been tested for exceptions and will be
  added in subsequent revisions.
