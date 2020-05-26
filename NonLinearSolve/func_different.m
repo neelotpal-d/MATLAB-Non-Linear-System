@@ -20,6 +20,6 @@ function v=func_different(f,var_num,coord)
      if (~isreal(v) || isnan(v) )
        coord2(var_num)=coord2(var_num)+2*h; 
        c2=num2cell(coord2);
-       v=(f(coord2)-f(coord1))/(h);
+       v=(f(c2)-f(c1))/(h);
     end
 end
